@@ -9,6 +9,7 @@ body{
   margin: 0;
   flex-direction: column;
   justify-content: space-between;
+  overflow-x: hidden;
  }
 
 header{
