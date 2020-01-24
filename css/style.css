@@ -162,6 +162,81 @@ h3{
   color: #fff;
 }
 
+/* projects  */
+
+.project-slide{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-text{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+}
+
+.project-title{
+  flex-basis: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time, .project-cost{
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time, .project-cost, .project-feedback{
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle{
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.project-paragraph{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.project-icon{
+  margin-right: 16px;
+}
+
+.project-bullet{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #FFBB01;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-bullet-active{
+   background: #FFBB01;
+}
+
+.project-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+
 /* footer */
 
 footer{
@@ -182,13 +257,14 @@ h4{
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
-  color: #000000;
+  color: #fff;
   margin: 0;
   margin-bottom: 29px;
 }
 
 .call-us{
   text-align: center;
+  color:#000;
 }
 
 .input{
