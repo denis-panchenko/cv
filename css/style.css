@@ -379,7 +379,7 @@ h4{
   .contacts-text{
     margin-top: 35px;
   }
-  .contacts-phone, .contacts-mail, .contacts-social, .sociable, .contacts-policy{
+  .contacts-phone, .contacts-mail, .contacts-social, .contacts-policy{
     text-align: center;
     display: block;
     margin-bottom: 35px;
@@ -389,6 +389,11 @@ h4{
   }
   .contacts-policy{
     margin: 0;
+  }
+  .sociable-footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
   }
 }
 
@@ -472,5 +477,14 @@ h4{
   }
   .contacts-data a{
     margin: 0 5px;
+  }
+}
+@media (max-width: 400px){
+  .header-top{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo{
+    margin-bottom: 10px;
   }
 }
