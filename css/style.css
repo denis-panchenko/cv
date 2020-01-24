@@ -114,7 +114,7 @@ button{
   border: 12px solid #fff;
   background-image: url(../img/avatar.jpg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center top 0px;
   background-size: cover;
 }
 
