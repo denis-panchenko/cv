@@ -366,6 +366,32 @@ h4{
   }
 }
 
+@media (max-width: 980px){
+  h2{
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .contacts-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contacts-text{
+    margin-top: 35px;
+  }
+  .contacts-phone, .contacts-mail, .contacts-social, .sociable, .contacts-policy{
+    text-align: center;
+    display: block;
+    margin-bottom: 35px;
+  }
+  .contacts-data{
+    margin: 0;
+  }
+  .contacts-policy{
+    margin: 0;
+  }
+}
+
 @media (max-width: 940px) {
   header{
     height: 100%;
@@ -428,5 +454,23 @@ h4{
     width: 100%;
     text-align: center;
     margin: 15px 0;
+  }
+}
+
+@media (max-width: 525px){
+  .contacts-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-phone,
+  .contacts-mail,
+  .contacts-social{
+    flex-basis: 100%;
+  }
+  .contacts-data a{
+    margin-right: 0;
+  }
+  .contacts-data a{
+    margin: 0 5px;
   }
 }
