@@ -368,6 +368,21 @@ h4{
 }
 
 @media (max-width: 980px){
+  .project-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-img{
+    padding-bottom: 30px;
+  }
+  .project-title{
+    text-align: center;
+  }
+  .project-time, .project-cost{
+    flex-basis: 100%;
+  }
+  
   h2{
     margin-bottom: 35px;
     text-align: center;
@@ -478,6 +493,12 @@ h4{
   }
   .contacts-data a{
     margin: 0 5px;
+  }
+  .contacts-form{
+    padding: 20px;
+  }
+  button{ 
+    width: 100%;
   }
 }
 @media (max-width: 400px){
